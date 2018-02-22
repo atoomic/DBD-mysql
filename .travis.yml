@@ -58,6 +58,8 @@ matrix:
     - perl: "5.22"
       env: DB=MySQL VERSION=5.5.58
     - perl: "5.22"
+      env: DB=MySQL VERSION=5.5.59
+    - perl: "5.22"
       env: DB=MySQL VERSION=5.6.10
     - perl: "5.22"
       env: DB=MySQL VERSION=5.6.30
@@ -70,7 +72,7 @@ matrix:
     - perl: "5.22"
       env: DB=MySQL VERSION=5.6.38
     - perl: "5.22"
-      env: DB=MySQL VERSION=5.7.8-rc
+      env: DB=MySQL VERSION=5.6.39
     - perl: "5.22"
       env: DB=MySQL VERSION=5.7.11
     - perl: "5.22"
@@ -84,13 +86,9 @@ matrix:
     - perl: "5.22"
       env: DB=MySQL VERSION=5.7.20
     - perl: "5.22"
-      env: DB=MySQL VERSION=8.0.0-dmr
+      env: DB=MySQL VERSION=5.7.21
     - perl: "5.22"
-      env: DB=MySQL VERSION=8.0.1-dmr
-    - perl: "5.22"
-      env: DB=MySQL VERSION=8.0.2-dmr
-    - perl: "5.22"
-      env: DB=MySQL VERSION=8.0.3-rc
+      env: DB=MySQL VERSION=8.0.4-rc
     - perl: "5.22"
       env: DB=MariaDB VERSION=5.5.40
     - perl: "5.22"
